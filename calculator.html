@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discount Calculator</title>
-    <style>
-      h2{
-        color: blueviolet ;
-        
-        
-        
-      }
-      p{
-        color: brown;
-      }
-      input[ type="text"]{
-        color: rgb(43, 226, 61);
-        background-color: rgb(43, 226, 107);
-      }
-          </style>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discount Calculator</title>
+  <style>
+    h2 {
+      text-align: center;
+      color: blueviolet;
+    }
+
+    p {
+      text-align: center;
+      color: brown;
+    }
+
+    #div {
+      background-color: rgb(218, 218, 120);
+      text-align: center;
+      border: 3px solid cadetblue;
+      display: inline-block;
+      width: 400px;
+      height: 300px;
+    }
+    body{
+      background-color: antiquewhite;
+    }
+
+    /* strong {
+      border: 3px solid red;
+    } */
+
+    #heading {
+      text-align: center;
+      border: 3px solid cadetblue;
+      visibility: hidden;
+    }
+
+    /* display: none; */
+    input {
+      width: 90%;
+      text-align: center;
+      /* color: rgb(43, 226, 61); */
+      background-color: rgb(43, 226, 107);
+    }
+    button{
+      background: green;
+      border-radius: 3px;
+      text-align: center;
+      margin-top: 10px;
+      width: 150px;
+    }
+    h4{
+      margin-left: 20px;
+      text-align: left;
+    }
+  </style>
+
 </head>
+
 <body>
-    
-    <h2> <strong> Discount Calculator</strong> </h2>
-    
+
+
+  <div id="div">
+    <h2> Discount Calculator</h2>
+
     <p> Enter the bill amount and discount in percentage</p>
-    <p>  Bill Amount</p>
-    <input type="text">
-    <p> Discount percentage</p>
-    <input type=:" text">
+    <h4> Bill Amount </h4>
+    <input type="number">
 
-    <h2> <input type="text"> <label for="Calculator"></label></h2>
-    <p> Total Discount Amount </p>
-    
-    
+    <h4> Discount percentage</h4>
+    <input type="number">
+    <div>
+      <button>Calculate</button>
+    </div>
+  </div>
 
 
-    
+
+
 </body>
+
 </html>
